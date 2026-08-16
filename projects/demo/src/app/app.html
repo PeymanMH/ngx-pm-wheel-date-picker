@@ -1,0 +1,41 @@
+<div class="page">
+  <header class="topbar">
+    <div>
+      <h1>ngx-pm-wheel-date-picker</h1>
+      <p class="subtitle">انتخاب‌گر تاریخ چرخ‌دستی روی تقویم جلالی برای Angular</p>
+    </div>
+    <button type="button" class="theme-toggle" (click)="toggleTheme()">
+      {{ dark() ? 'حالت روشن' : 'حالت تیره' }}
+    </button>
+  </header>
+
+  <main class="grid">
+    <section class="card">
+      <h2>مودال — فقط تاریخ (پیش‌فرض)</h2>
+      <wdp-wheel-date-picker [control]="modalDate" label="تاریخ تولد" />
+      <code class="value">{{ modalDate.value || '—' }}</code>
+    </section>
+
+    <section class="card">
+      <h2>مودال — تاریخ و ساعت</h2>
+      <wdp-wheel-date-picker [control]="modalDateTime" label="زمان جلسه" [withTime]="true" />
+      <code class="value">{{ modalDateTime.value || '—' }}</code>
+    </section>
+
+    <section class="card">
+      <h2>Inline — فقط تاریخ</h2>
+      <wdp-wheel-date-picker [control]="inlineDate" label="تاریخ فاکتور" mode="inline" />
+      <code class="value">{{ inlineDate.value || '—' }}</code>
+    </section>
+
+    <section class="card">
+      <h2>Inline — تاریخ و ساعت</h2>
+      <wdp-wheel-date-picker [control]="inlineDateTime" label="زمان تحویل" mode="inline" [withTime]="true" />
+      <code class="value">{{ inlineDateTime.value || '—' }}</code>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <code class="install">npm install ngx-pm-wheel-date-picker dayjs jalaliday</code>
+  </footer>
+</div>

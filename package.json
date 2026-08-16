@@ -1,0 +1,49 @@
+{
+  "name": "ngx-pm-wheel-date-picker",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start:demo": "ng serve demo --port 4300",
+    "build:lib": "ng build ngx-pm-wheel-date-picker",
+    "build:demo": "ng build demo",
+    "watch:lib": "ng build ngx-pm-wheel-date-picker --watch --configuration development",
+    "test": "ng test",
+    "pack:lib": "npm run build:lib && cd dist/ngx-pm-wheel-date-picker && npm pack"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "overrides": [
+      {
+        "files": "*.html",
+        "options": {
+          "parser": "angular"
+        }
+      }
+    ]
+  },
+  "private": true,
+  "packageManager": "npm@11.6.2",
+  "dependencies": {
+    "@angular/cdk": "^21.2.14",
+    "@angular/common": "^21.1.0",
+    "@angular/compiler": "^21.1.0",
+    "@angular/core": "^21.1.0",
+    "@angular/forms": "^21.1.0",
+    "@angular/platform-browser": "^21.1.0",
+    "@angular/router": "^21.1.0",
+    "dayjs": "^1.11.22",
+    "jalaliday": "^3.1.1",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular/build": "^21.2.21",
+    "@angular/cli": "^21.1.1",
+    "@angular/compiler-cli": "^21.1.0",
+    "jsdom": "^28.0.0",
+    "ng-packagr": "^21.2.0",
+    "typescript": "~5.9.2",
+    "vitest": "^4.0.8"
+  }
+}

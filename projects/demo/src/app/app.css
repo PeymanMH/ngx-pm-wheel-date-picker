@@ -1,0 +1,101 @@
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 20px 64px;
+}
+
+.topbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 4px;
+  direction: ltr;
+  unicode-bidi: isolate;
+  text-align: right;
+}
+
+.subtitle {
+  margin: 0;
+  color: var(--demo-text-muted);
+  font-size: 14px;
+}
+
+.theme-toggle {
+  height: 36px;
+  padding: 0 16px;
+  border-radius: 8px;
+  border: 1px solid var(--demo-border);
+  background: var(--demo-surface);
+  color: var(--demo-text);
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.theme-toggle:hover {
+  border-color: var(--demo-accent);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border: 1px solid var(--demo-border);
+  border-radius: 12px;
+  background: var(--demo-surface);
+  padding: 16px;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--demo-text-muted);
+}
+
+.value {
+  direction: ltr;
+  unicode-bidi: isolate;
+  text-align: left;
+  font-size: 12px;
+  color: var(--demo-text-muted);
+  background: var(--demo-bg);
+  border-radius: 6px;
+  padding: 6px 8px;
+}
+
+.footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.install {
+  direction: ltr;
+  unicode-bidi: isolate;
+  display: inline-block;
+  font-size: 13px;
+  background: var(--demo-surface);
+  border: 1px solid var(--demo-border);
+  border-radius: 8px;
+  padding: 10px 16px;
+}

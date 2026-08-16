@@ -1,0 +1,35 @@
+{
+  "name": "ngx-pm-wheel-date-picker",
+  "version": "0.1.0",
+  "description": "Standalone Jalali (Persian) wheel-style date/time picker for Angular, with inline and modal (bottom-sheet) modes.",
+  "keywords": [
+    "angular",
+    "jalali",
+    "persian",
+    "shamsi",
+    "date-picker",
+    "wheel-picker",
+    "rtl"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_GITHUB_USERNAME/ngx-pm-wheel-date-picker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_GITHUB_USERNAME/ngx-pm-wheel-date-picker/issues"
+  },
+  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/ngx-pm-wheel-date-picker#readme",
+  "peerDependencies": {
+    "@angular/common": ">=21.0.0",
+    "@angular/core": ">=21.0.0",
+    "@angular/forms": ">=21.0.0",
+    "@angular/cdk": ">=21.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0",
+    "dayjs": "^1.11.0",
+    "jalaliday": "^3.1.0"
+  },
+  "sideEffects": false
+}

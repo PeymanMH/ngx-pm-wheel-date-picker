@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "wdp-demo",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "start:demo"],
+      "port": 4300
+    }
+  ]
+}
