@@ -14,12 +14,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_GITHUB_USERNAME/ngx-pm-wheel-date-picker.git"
+    "url": "git+https://github.com/PeymanMH/ngx-pm-wheel-date-picker.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_GITHUB_USERNAME/ngx-pm-wheel-date-picker/issues"
+    "url": "https://github.com/PeymanMH/ngx-pm-wheel-date-picker/issues"
   },
-  "homepage": "https://github.com/YOUR_GITHUB_USERNAME/ngx-pm-wheel-date-picker#readme",
+  "homepage": "https://github.com/PeymanMH/ngx-pm-wheel-date-picker#readme",
   "peerDependencies": {
     "@angular/common": ">=21.0.0",
     "@angular/core": ">=21.0.0",

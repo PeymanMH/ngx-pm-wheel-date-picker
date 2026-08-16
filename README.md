@@ -8,7 +8,7 @@ Inline or modal (bottom-sheet) mode, optional time selection, leap years handled
 themeable via CSS custom properties. No required stylesheet import, no icon font, no dependency
 on any particular design system — it works next to Tailwind, Material, or plain CSS alike.
 
-▶ [Try it on StackBlitz](https://stackblitz.com/github/YOUR_GITHUB_USERNAME/ngx-pm-wheel-date-picker?file=projects/demo/src/app/app.html)
+▶ [Try it on StackBlitz](https://stackblitz.com/github/PeymanMH/ngx-pm-wheel-date-picker?file=projects/demo/src/app/app.html)
 
 ## Features
 
