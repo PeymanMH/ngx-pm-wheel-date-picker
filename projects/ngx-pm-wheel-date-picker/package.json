@@ -1,6 +1,6 @@
 {
   "name": "ngx-pm-wheel-date-picker",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Standalone Jalali (Persian) wheel-style date/time picker for Angular, with inline and modal (bottom-sheet) modes.",
   "keywords": [
     "angular",
