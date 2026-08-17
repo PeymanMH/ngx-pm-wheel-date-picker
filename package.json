@@ -1,6 +1,6 @@
 {
   "name": "ngx-pm-wheel-date-picker",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "scripts": {
     "ng": "ng",
     "start:demo": "ng serve demo --port 4300",

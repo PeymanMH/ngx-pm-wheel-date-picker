@@ -18,7 +18,7 @@ export interface WheelDatePickerSheetData {
   imports: [WheelDatePickerPanelComponent],
   host: { class: 'wdp-sheet-host' },
   styles: `
-    .wdp-sheet-host {
+    :host {
       position: fixed;
       inset-inline: 0;
       bottom: 0;
@@ -26,7 +26,7 @@ export interface WheelDatePickerSheetData {
       display: block;
     }
     @media (min-width: 768px) {
-      .wdp-sheet-host {
+      :host {
         position: relative;
         inset: auto;
         margin: auto;
